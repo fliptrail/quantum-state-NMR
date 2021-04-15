@@ -21,6 +21,10 @@ The final result was predicted using a weighted ensemble model comprising of thr
 
 The weighted average of predictions from these subnetworks were considered as final predictions. Weights of the weighted average model were learnt from our dataset while training.
 
+## Code
+
+The code is available as `quantum-NMR-code.ipynb` file in this directory. It downloads the dataset directly from the source controlled by the authors mentioned [here](https://ml4sci.org/gsoc/2021/proposal_NMR.html).
+
 ## Results
 
 ### Individual Subnetwork Predictions:
